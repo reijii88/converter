@@ -8,22 +8,20 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import server.servlets.ConvertionServlet;
 import server.servlets.CreateUserServlet;
-import server.servlets.MainMenuServlet;
 
 public class JettyTest extends Server {
 
     private static final int PORT = 8080;
 
     public static void init() throws Exception {
-MainMenuServlet mms = new MainMenuServlet();
-CreateUserServlet cus = new CreateUserServlet();
-ConvertionServlet cs = new ConvertionServlet();
+        CreateUserServlet cus = new CreateUserServlet();
+        ConvertionServlet cs = new ConvertionServlet();
 
         ServletContextHandler context = new ServletContextHandler(
                 ServletContextHandler.SESSIONS);
 
         context.addServlet(new ServletHolder(cus), "/createUser");
-        context.addServlet(new ServletHolder(cs),"/convertion");
+        context.addServlet(new ServletHolder(cs), "/convertion");
         context.setWelcomeFiles(new String[]{"/index.html"});
 
         ResourceHandler rh = new ResourceHandler();
@@ -31,7 +29,7 @@ ConvertionServlet cs = new ConvertionServlet();
 
 
         HandlerList list = new HandlerList();
-        list.setHandlers(new Handler[]{rh,context});
+        list.setHandlers(new Handler[]{rh, context});
 
         Server server = new Server(PORT);
         server.setHandler(list);
@@ -41,8 +39,6 @@ ConvertionServlet cs = new ConvertionServlet();
         System.out.println("LOG: serverStart");
         server.join();
     }
-
-
 
 
 }

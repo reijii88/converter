@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed95e2ec-f4a1-4e5c-92e5-45b457821424" name="Default" comment="" />
+    <list default="true" id="ed95e2ec-f4a1-4e5c-92e5-45b457821424" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/server/JettyTest.java" afterPath="$PROJECT_DIR$/src/server/JettyTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,77 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+      <file leaf-file-name="JettyTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/JettyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/GUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConvertionResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/converter/ConvertionResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Position.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/enums/Position.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperationResult.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/enums/OperationResult.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/Printer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Converter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/converter/Converter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
-              <folding>
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#782#797#0" expanded="false" />
-                <element signature="e#2380#2465#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,7 +81,6 @@
         <option value="$PROJECT_DIR$/src/server/WEB-INF/index.html" />
         <option value="$PROJECT_DIR$/src/server/servlets/MainMenuServlet.java" />
         <option value="$PROJECT_DIR$/WEB-INF/index.html" />
-        <option value="$PROJECT_DIR$/src/server/JettyTest.java" />
         <option value="$PROJECT_DIR$/src/server/servlets/CreateUserServlet.java" />
         <option value="$PROJECT_DIR$/src/server/servlets/ConvertionServlet.java" />
         <option value="$PROJECT_DIR$/src/operator/Employee.java" />
@@ -172,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/gui/GUI.java" />
         <option value="$PROJECT_DIR$/src/enums/OperationResult.java" />
         <option value="$PROJECT_DIR$/src/enums/Position.java" />
+        <option value="$PROJECT_DIR$/src/server/JettyTest.java" />
       </list>
     </option>
   </component>
@@ -202,23 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="converter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="converter" type="b2602c69:ProjectViewProjectNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -230,8 +150,42 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="converter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +193,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -247,13 +201,6 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/server/WEB-INF/" />
-      <recent name="$PROJECT_DIR$/resources" />
-      <recent name="$PROJECT_DIR$/webapp" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="java.test" />
@@ -261,13 +208,221 @@
       <recent name="server" />
       <recent name="client" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="gui" />
       <recent name="converter" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/lib/" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/server/WEB-INF/" />
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/.classpath</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/.idea/modules.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/.idea/uiDesigner.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/.idea/vcs.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/.project</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/.settings/org.eclipse.jdt.core.prefs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/WEB-INF/convertion.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/WEB-INF/createUser.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/WEB-INF/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/cashbox/CashBox.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/client.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/client/Client.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/client/ClientDataBuilder.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/client/DUL.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/converter/ConvertationRequest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/converter/Converter.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/converter/ConvertionData.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/converter/ConvertionResult.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/datasource/FileDataSource.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/datasource/ProgrammDataSource.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/enums/CURRENCY_ENUM.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/enums/OperationResult.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/enums/Position.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/exception/ConvertionException.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/exception/PrintException.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/gui/GUI$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/gui/GUI$ConvertationRequestListener.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/gui/GUI$CreateNewClient.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/gui/GUI$CreqateRequest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/gui/GUI$SubmitListener.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/gui/GUI.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/interfaces/Employee.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/interfaces/EmployeeFactory.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/interfaces/IConverter.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/interfaces/IDataSources.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/lib/jetty-all-uber.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/lib/jstl.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/main/Main.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/operator/Operator.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/operator/OperatorFactory.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/operator/OperatorStudent.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/person/Person.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/server/JettyTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/server/servlets/ConvertionServlet.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/server/servlets/CreateUserServlet.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/server/servlets/MainMenuServlet.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/services/CentralBankService$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/services/CentralBankService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/services/DbService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/test/CashBoxValueChanges.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/test/checkData.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/bin/util/Printer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/converter.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/resources/client.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/resources/lib/jetty-all-uber.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/resources/lib/jstl.jar</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/cashbox/CashBox.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/client/Client.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/client/ClientDataBuilder.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/client/DUL.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/converter/ConvertationRequest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/converter/Converter.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/converter/ConvertionData.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/converter/ConvertionResult.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/datasource/FileDataSource.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/datasource/ProgrammDataSource.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/enums/CURRENCY_ENUM.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/enums/OperationResult.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/enums/Position.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/exception/ConvertionException.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/exception/PrintException.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/gui/GUI.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/interfaces/Employee.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/interfaces/EmployeeFactory.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/interfaces/IConverter.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/interfaces/IDataSources.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/main/Main.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/operator/Operator.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/operator/OperatorFactory.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/operator/OperatorStudent.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/person/Person.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/server/JettyTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/server/servlets/ConvertionServlet.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/server/servlets/CreateUserServlet.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/server/servlets/MainMenuServlet.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/services/CentralBankService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/services/DbService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/test/CashBoxValueChanges.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/test/checkData.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/converter/src/util/Printer.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -558,7 +713,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526649149249</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update Jetty test -&gt; - MainServlet&#10;change lib folder -&gt; resources/lib">
+      <created>1526911955631</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526911955631</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -598,7 +760,6 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -606,10 +767,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40582192" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4708904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8938356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28424656" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27265862" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27643505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -620,6 +781,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" x="100" y="127" width="1166" height="541" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -685,7 +847,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firstCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="firstCommit" />
+    <MESSAGE value="update Jetty test -&gt; - MainServlet&#10;change lib folder -&gt; resources/lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Jetty test -&gt; - MainServlet&#10;change lib folder -&gt; resources/lib" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -887,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="945" column="0" lean-forward="true" selection-start-line="945" selection-start-column="0" selection-end-line="945" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,12 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding>
-            <element signature="e#146#147#0" expanded="false" />
-            <element signature="e#178#179#0" expanded="false" />
-            <element signature="e#212#213#0" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1035,13 +1189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/JettyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="25" column="61" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/server/servlets/ConvertionServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1075,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,19 +1237,11 @@
         <state relative-caret-position="1224">
           <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding>
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
             <element signature="e#782#797#0" expanded="false" />
             <element signature="e#2380#2465#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,9 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1128,9 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1158,26 +1288,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/GUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/converter/ConvertionResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/enums/OperationResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1186,7 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,14 +1307,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/enums/Position.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/converter/ConvertionResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="107" column="1" lean-forward="false" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/GUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/JettyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -8,14 +8,12 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import server.servlets.ConvertionServlet;
 import server.servlets.CreateUserServlet;
-import server.servlets.MainMenuServlet;
 
 public class JettyTest extends Server {
 
     private static final int PORT = 8080;
 
     public static void init() throws Exception {
-MainMenuServlet mms = new MainMenuServlet();
 CreateUserServlet cus = new CreateUserServlet();
 ConvertionServlet cs = new ConvertionServlet();
 

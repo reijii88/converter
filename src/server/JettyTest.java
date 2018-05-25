@@ -11,17 +11,17 @@ import server.servlets.CreateUserServlet;
 
 public class JettyTest extends Server {
 
-    private static final int PORT = 8080;
+    private static final int PORT = 8081;
 
     public static void init() throws Exception {
-CreateUserServlet cus = new CreateUserServlet();
-ConvertionServlet cs = new ConvertionServlet();
+        CreateUserServlet cus = new CreateUserServlet();
+        ConvertionServlet cs = new ConvertionServlet();
 
         ServletContextHandler context = new ServletContextHandler(
                 ServletContextHandler.SESSIONS);
 
         context.addServlet(new ServletHolder(cus), "/createUser");
-        context.addServlet(new ServletHolder(cs),"/convertion");
+        context.addServlet(new ServletHolder(cs), "/convertion");
         context.setWelcomeFiles(new String[]{"/index.html"});
 
         ResourceHandler rh = new ResourceHandler();
@@ -29,7 +29,7 @@ ConvertionServlet cs = new ConvertionServlet();
 
 
         HandlerList list = new HandlerList();
-        list.setHandlers(new Handler[]{rh,context});
+        list.setHandlers(new Handler[]{rh, context});
 
         Server server = new Server(PORT);
         server.setHandler(list);
@@ -39,8 +39,6 @@ ConvertionServlet cs = new ConvertionServlet();
         System.out.println("LOG: serverStart");
         server.join();
     }
-
-
 
 
 }

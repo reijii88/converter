@@ -20,6 +20,7 @@ private DbService dbService;
     public void init() {
         System.out.println("ServletInitalization");
         dbService = new DbService();
+        dbService.init();
     }
 
     public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
@@ -58,7 +59,6 @@ private DbService dbService;
     }
 
     public void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
-
         req.setCharacterEncoding("UTF-8");
         Double input = Double.parseDouble(req.getParameter("inputAmm"));
         String inputCurrency = req.getParameter("currencyIn");

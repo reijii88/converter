@@ -18,7 +18,6 @@ public class ClientDataBuilder {
         this.client.setId(uuid);
         this.client.setFullName(dul.getFullname());
         this.client.setDul(dul);
-
         return  client;
     }
 

@@ -25,6 +25,7 @@ public class GUI extends JFrame {
     private JComboBox<Object> client;
     private DefaultComboBoxModel<Object> clientModel = new DefaultComboBoxModel<>();
     private Client clients;
+
     public GUI() {
         super("Converter");
         setDefaultLookAndFeelDecorated(false);
@@ -38,6 +39,7 @@ public class GUI extends JFrame {
 
     private void init() {
         service = new DbService();
+        service.init();
         JPanel mainPanel = new JPanel();
         DefaultComboBoxModel<CURRENCY_ENUM> cbm1 = new DefaultComboBoxModel<>();
         cbm1.addElement(CURRENCY_ENUM.USD);
@@ -67,10 +69,13 @@ public class GUI extends JFrame {
         lName.setText("Иванович");
         sName = new JTextField(9);
         sName.setText("Иванов");
+
         dulNumber = new JTextField(9);
         dulNumber.setText("464512354");
+
         dulType = new JTextField(9);
         dulType.setText("Passport");
+
         clientData.setLayout(new BoxLayout(clientData, BoxLayout.Y_AXIS));
         clientData.add(new JLabel("Фамилия"));
         clientData.add(sName, BorderLayout.WEST);
@@ -107,7 +112,6 @@ public class GUI extends JFrame {
 
             service = new DbService();
             StringBuilder sb = new StringBuilder();
-
             sb.append(sName.getText().trim()).append(" ")
                     .append(fName.getText().trim()).append(" ")
                     .append(lName.getText().trim());
@@ -116,7 +120,9 @@ public class GUI extends JFrame {
             clients = new ClientDataBuilder().builData(new DUL(dulType.getText(),
                     Integer.parseInt(dulNumber.getText()),
                     sb.toString().trim()));
+
             service.createClient(1, clients);
+
             clientModel.addElement(service.getClientById(1));
 
             lName.setText("");
@@ -149,7 +155,7 @@ public class GUI extends JFrame {
         @Override
         public void actionPerformed(ActionEvent e) {
 
-
+            clientModel.addElement(service.getClientById(3));
             JDialog dialog = new JDialog();
             dialog.setBounds(1000, 200, 450, 250);
             dialog.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
@@ -166,7 +172,7 @@ public class GUI extends JFrame {
         public void actionPerformed(ActionEvent e) {
 
             ConvertionData data = new ConvertionData(service.getClientById(1), Double.valueOf(inputAmmountField.getText()),
-                    inputCurrency.getSelectedItem(),outputCurrency.getSelectedItem());
+                    inputCurrency.getSelectedItem(), outputCurrency.getSelectedItem());
             ConvertionResult result = new Converter().convert(data);
             try {
                 JOptionPane.showMessageDialog(null, Printer.print(result));

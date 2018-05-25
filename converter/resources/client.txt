@@ -1,3 +1,0 @@
-
-1,Ivanov I.A,passport,232423,1199,USD,RUB
-2,Sidorov V.U,passport,362156,100,USD,RUB

@@ -8,6 +8,7 @@ import datasource.ProgrammDataSource;
 import exception.ConvertionException;
 import exception.PrintException;
 import gui.GUI;
+import server.JettyTest;
 import util.Printer;
 
 import java.io.IOException;
@@ -36,19 +37,19 @@ public class Main {
         } catch (ConvertionException | PrintException e) {
             e.printStackTrace();
         }
+///////////////////////////////////
+        new GUI();
+///////////////////////////////////
 
 /////////////////////////////////
         //localhost:8080
 /////////////////////////////////
-       /* try {
-            JettyTest.init();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-*/
-///////////////////////////////////
-        new GUI();
-///////////////////////////////////
+        try {
+           JettyTest.init();
+       } catch (Exception e) {
+           e.printStackTrace();
+       }
+
     }
 }
 
